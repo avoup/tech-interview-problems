@@ -3,6 +3,9 @@
 These are the problems that I had to solve in Toptal interview. I was interviewed for Senior Node.js developer position.
 If you are interested in more details you can check out a [Video](https://youtu.be/QczD-QKiD-E 'Toptal interview') I made about it. Including problems and explanations of the solutions.
 
+**NOTE:** The problems mentioned here are not exact same problems that I got in an interview, as it is not allowed to share them. The problems shown here are close alternatives I found online and ARE PUBLIC.
+**UPDATE:** On a demand of a toptal technical screener problem 1 of step 3 was removed
+
 ## Step 2
 
 ### Problem 1 - phonebook
@@ -483,49 +486,7 @@ print(solution(3, [1,3], [2, 2])) # True
 
 ---
 
-You are given some amount of money(`m`) and price(`p`) of a product.
-Calculate the change to return in the least amount of coins possible and return an array of coins.
-Coins you have are `1, 5, 10, 25, 50 cents`, and `1 dollar`, each corresponding to an index in an array.
-
-example
-
-```js
-getChange(5, 0.99); // should return [1,0,0,0,0,4] 4 1-dollar coins and 1 1-cent coin
-```
-
-#### **Solution**
-
----
-
-```js
-/**
- *
- * @param {Number} m Current amount of money
- * @param {Number} p Price of the product
- * @returns {Array} Amounts of coins
- */
-const getChange = (m, p) => {
-    let rem = m * 100 - p * 100;
-    const coins = [1, 5, 10, 25, 50, 100];
-    const res = Array(coins.length).fill(0);
-
-    for (let i = res.length - 1; i >= 0; i--) {
-        res[i] = Math.floor(rem / coins[i]);
-        rem = rem - coins[i] * res[i];
-
-        if (rem === 0) break;
-    }
-
-    return res;
-};
-
-// Test cases
-console.log(getChange(5, 0.99)); // should return [1,0,0,0,0,4]
-console.log(getChange(3.14, 1.99)); // should return [0,1,1,0,0,1]
-console.log(getChange(3, 0.01)); // should return [4,0,2,1,1,2]
-console.log(getChange(4, 3.14)); // should return [1,0,1,1,1,0]
-console.log(getChange(0.45, 0.34)); // should return [1,0,1,0,0,0]
-```
+*removed on a demand of a toptal technical screener*
 
 ### Problem 2 - findWord (JS only)
 
