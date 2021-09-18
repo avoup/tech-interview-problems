@@ -1,10 +1,9 @@
-# Toptal interview problems
+# Interview problems
+Unfortunately I can't tell which company was it due to their rules.
 
-These are the problems that I had to solve in Toptal interview. I was interviewed for Senior Node.js developer position.
-If you are interested in more details you can check out a [Video](https://youtu.be/QczD-QKiD-E 'Toptal interview') I made about it. Including problems and explanations of the solutions.
+These are the problems that I had to solve in tech interview. I was interviewed for Senior Node.js developer position.
+If you are interested in more details you can check out a [Video](https://youtu.be/QczD-QKiD-E 'Tech interview') I made about it. Including problems and explanations of the solutions.
 
-**NOTE:** The problems mentioned here are not exact same problems that I got in an interview, as it is not allowed to share them. The problems shown here are close alternatives I found online and ARE PUBLIC.
-**UPDATE:** On a demand of a toptal technical screener problem 1 of step 3 was removed
 
 ## Step 2
 
